@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-left: 6px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.amazon-logo {
+    width: 250px; /* Adjust the size as needed */
+    filter: brightness(0) invert(1); /* Converts colors to white */
+    padding-top: 10px;
+  }
+  .amazon-logo:hover{
+    border: 1px solid white;
+  }
+.logo img{
+    height: 28px;
+    width: 100px;
+}
+
+.span1{
+    font-size: 20px;
+    height: 20px;
+    width: 20px; 
+}
+.navbar-items{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.search-box{
+   display: flex;
+}
+.search-box input{
+    height: 35px;
+    width: 450px;
+}
+.navbar-2{
+    height: 40px;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar-2 ,ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    list-style: none;
+}
+.navbar-2 ul li{
+    font-size: 16px;
+}
+.home-section{
+    display: flex;
+    flex-direction: column;
+    height:200vh;
+    width: 100%;
+    
+}
+.backimg{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img24/Media/BAU/PC_Hero_2x-toys_1._CB582765723_.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boxes
+{   
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.box-1{
+    display: grid;
+    height:380px ;
+    width: 290px;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.box-1-heading{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.box-images{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 280px;
+    width: 280px;
+    padding-left: 15px;
+   
+    
+}
+.cusion-images img{
+    display: grid;
+    height: 100px;
+    width: 120px;
+}
+.cusion-text{
+    display: grid;
+    height: 20px;
+    width: 80px;
+    font-size: 15px;
+}
+.images-scroller{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    border: 5px solid gray;
+    box-shadow: 2px;
+    
+}
+.images-scroller-heading{
+    font-size: 15px;
+    margin-bottom: 25px;
+  
+    
+    
+}
+.img-panel{
+    display: flex;
+    overflow-x: scroll;
+}
+.images-scroll img{
+    height: 150px;
+    width: 200px;
+    margin-top: 15px;
+    padding: 20px
+
+};
